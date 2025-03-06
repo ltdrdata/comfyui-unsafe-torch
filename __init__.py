@@ -1,4 +1,5 @@
 import torch
+import logging
 
 def torch_wrapper(*args, **kwargs):
     logging.warning("[comfyui-unsafe-torch] I have unsafely patched `torch.load`.  The `weights_only` option of `torch.load` is forcibly disabled.")
